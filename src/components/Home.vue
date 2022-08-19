@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div> -->
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 p-4">
             <p class="font-bold text-md md:text-xl">Enter your website URL</p>
             <div class="mt-8 flex flex-col">
                 <form @submit.prevent="getCode">
